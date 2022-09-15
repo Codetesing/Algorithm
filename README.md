@@ -1,3 +1,5 @@
 # Algorithm
 
-BOJ_ Problem = description => problem link
+BOJ_ Problem 
+
+description => problem link
