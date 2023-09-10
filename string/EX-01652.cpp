@@ -52,6 +52,6 @@ int main()
     }
 
     cout << ans1 << ' ' << ans2 << '\n';
-
+    
     return 0;
 }
