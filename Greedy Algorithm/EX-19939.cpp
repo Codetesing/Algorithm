@@ -13,15 +13,12 @@ int main()
     int N, K; cin >> N >> K;
 
     int ans = 0;
-    if (2 * N < K * (K + 1)) {
+    if (2 * N < K * (K + 1))
         ans = -1;
-    }
-    else if ((2 * N - (K * (K + 1))) % K == 0) {
+    else if ((2 * N - (K * (K + 1))) % K == 0)
         ans = K - 1;
-    }
-    else {
+    else
         ans = K;
-    }
 
     cout << ans << '\n';
 
